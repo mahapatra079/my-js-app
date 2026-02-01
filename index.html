@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+<!-- <!DOCTYPE html> → Tells browser this is HTML5 -->
 <html lang="en">
+    <!-- lang="en" → Improves accessibility & SEO -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport → makes UI responsive -->
     <title>JavaScript App</title>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -11,14 +14,8 @@
 <div class="container">
 
     <!-- LEFT SIDEBAR -->
-    <nav class="sidenav">
-        <ul>
-            <li><a href="#" data-section="home" class="active">Home</a></li>
-            <li><a href="#" data-section="variables">Variables</a></li>
-            <li><a href="#" data-section="functions">Functions</a></li>
-            <li><a href="#" data-section="events">Events</a></li>
-        </ul>
-    </nav>
+    <div id="sidebar-container"></div>
+    <!-- Root File for the Sidebar Component -->
 
     <!-- MAIN CONTENT -->
     <main class="main">
@@ -50,6 +47,6 @@
 
 </div>
 
-<script src="app.js"></script>
+<script type="module" src="app.js"></script>
 </body>
 </html>

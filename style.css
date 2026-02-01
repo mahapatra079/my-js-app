@@ -18,12 +18,13 @@ body {
 /* PAGE LAYOUT */
 .container {
     display: flex;        
-    min-height: 100vh;
+    height: 100vh;
 }
 
 /* SIDEBAR */
 .sidenav {
     width: 200px;
+    height: 100dvh;
     background-color: #1e1e1e;
     padding-top: 20px;
 }

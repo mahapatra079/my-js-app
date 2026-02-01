@@ -1,3 +1,8 @@
+import SideNav from './src/components/SideNav.js';
+
+// Initialize SideNav component
+document.getElementById('sidebar-container').innerHTML = SideNav();
+
 const navLinks = document.querySelectorAll(".sidenav a");
 const sections = document.querySelectorAll(".section");
 
@@ -21,6 +26,11 @@ navLinks.forEach(link => {
 });
 
 // Function example
-document.getElementById("btn").addEventListener("click", () => {
-    document.getElementById("output").innerText = "Button clicked!";
+document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById("btn");
+    if (btn) {
+        btn.addEventListener("click", () => {
+            document.getElementById("output").innerText = "Button clicked!";
+        });
+    }
 });
