@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT SIDEBAR -->
+    <nav class="sidenav">
+        <ul>
+            <li><a href="#" data-section="home" class="active">Home</a></li>
+            <li><a href="#" data-section="variables">Variables</a></li>
+            <li><a href="#" data-section="functions">Functions</a></li>
+            <li><a href="#" data-section="events">Events</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+        <div class="content">
+
+            <section id="home" class="section active">
+                <h1>JavaScript Examples</h1>
+                <p>Select a topic from the navigation</p>
+            </section>
+
+            <section id="variables" class="section">
+                <h2>Variables</h2>
+                <pre>const message = "Hello World";</pre>
+            </section>
+
+            <section id="functions" class="section">
+                <h2>Functions</h2>
+                <button id="btn">Click Me</button>
+                <p id="output"></p>
+            </section>
+
+            <section id="events" class="section">
+                <h2>Events</h2>
+                <p>Button click is handled using JavaScript event listeners.</p>
+            </section>
+
+        </div>
+    </main>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

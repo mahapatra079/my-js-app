@@ -1,0 +1,9 @@
+{
+  "name": "my-js-app",
+  "version": "1.0.0",
+  "description": "Basic JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx http-server ."
+  }
+}
