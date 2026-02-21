@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- viewport → makes UI responsive -->
     <title>JavaScript App</title>
+    <link rel="icon" href="data:,">
+    <!-- Browser automatically looks for /favicon.ico otherwise gives warning error  -->
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -20,15 +22,17 @@
     <!-- MAIN CONTENT -->
     <main class="main">
         <div class="content">
-
-            <section id="home" class="section active">
-                <h1>JavaScript Examples</h1>
-                <p>Select a topic from the navigation</p>
-            </section>
-
-            <section id="variables" class="section">
-                <h2>Variables</h2>
-                <pre>const message = "Hello World";</pre>
+            
+            <!-- root file for hoisting -->
+            <section id="hoisting" class="section active">
+                <p class="mb20">Hoisting is Javascript behaviour where Variables & Functions declarationsare moved to the top of their scope before the code execution</p>
+                <p>Note : In arrow function it can't be hoisted (var, let, const)</p>
+            </section>       
+            
+            <!-- root file for the Scope -->
+            <section id="scope" class="section">
+                <h2 class="mb20">Scope -  Var , Let, Const</h2>
+                <p>Function Scope, Block scope, Block Scopecd</p>
             </section>
 
             <section id="functions" class="section">

@@ -1,7 +1,7 @@
 function SideNav() {
     const navItems = [
-        { id: 'home', label: 'Home', active: true },
-        { id: 'variables', label: 'Variables', active: false },
+        { id: 'hoisting', label: 'Hoisting', active: true },
+        { id: 'scope', label: 'Scope', active: false },
         { id: 'functions', label: 'Functions', active: false },
         { id: 'events', label: 'Events', active: false }
     ];
